@@ -36,11 +36,6 @@ a:visited { text-decoration: none; color:unset; }
 	border: 2px solid black;
 }
 
-.give-content-container {
-	display: inline-block;
-	width: 30%;
-	border: 1px solid black;
-}
 
 #needs-list {
 	
@@ -79,6 +74,26 @@ a:visited { text-decoration: none; color:unset; }
 	font-size: 15pt;
 	color: white;
 
+}
+
+.give-content-container {
+	display: inline-block;
+	width: 45%;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+#needs-list li {
+	list-style-type: none;
+	border: 1px solid black;
+	width: 90%;
+	height: 100px;
+	margin-top: 5px;
+	padding-left: 3px;
+}
+
+#needs-list button {
+	float: right;
 }
 
 
