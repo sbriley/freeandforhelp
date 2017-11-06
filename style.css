@@ -10,6 +10,18 @@ a:visited { text-decoration: none; color:unset; }
 	height: 100%;
 }
 
+#give-form {
+}
+
+.form p {
+	text-align: right;
+}
+
+.form {
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+}
 
 #navbar *{
 	display: inline-block;
