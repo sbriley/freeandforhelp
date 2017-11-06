@@ -1,5 +1,4 @@
 
-
 body {
 	font-family: Avenir, sans-serif;
 }
@@ -25,7 +24,7 @@ a:visited { text-decoration: none; color:unset; }
 }
 
 #nav-logo {
-	height: 80%;
+	height: 80px;
 }
 
 #nav-title {
@@ -56,6 +55,61 @@ a:visited { text-decoration: none; color:unset; }
 
 #needs-list {
 	
+}
+
+#welcome_block {
+	margin: 25px;
+	border: 3.5px solid #2f2343;
+	background-color: #9079b9;
+	color: white;
+	font-family: Avenir;
+}
+
+.content_block {
+	margin: 10px;
+	border: 5px solid black;
+	text-align: center; 
+
+}
+
+.content_block_wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.content_block_element {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: 17px;
+	border: 3.5px solid #2f2343;
+	background-color: #9079b9;
+}
+
+.content_block_name {
+	text-align: center;
+	font-size: 25pt;
+	color: white;
+	text-decoration: underline;
+}
+
+.content_block_name:hover {
+	color: #2f2343;
+}
+
+.content_block_description{
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+
+}
+
+#about_us_block {
+	margin: 25px;
+	border: 3.5px solid #2f2343;
+	background-color: #9079b9;
+	color: white; 
+	font-family: Avenir;
 }
 
 
