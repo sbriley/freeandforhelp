@@ -96,5 +96,20 @@ a:visited { text-decoration: none; color:unset; }
 	float: right;
 }
 
+#has-list li {
+	list-style-type: none;
+	border: 1px solid black;
+	width: 90%;
+	height: 100px;
+	margin-top: 5px;
+	padding-left: 3px;
+}
+
+#has-list button {
+	float: right;
+}
+
+
+
 
 
