@@ -112,5 +112,49 @@ a:visited { text-decoration: none; color:unset; }
 	font-family: Avenir;
 }
 
+.resource_container {
+	width: 95%;
+	height: 25%;
+	border: 3.5px solid #2f2343;
+	margin: 15px;
+	margin-top: 25px;
+}
 
+.resource_title_text {
+	font-size: 19pt;
+	color: black;
+	text-decoration: underline; 
+}
+
+.trending_news_element {
+	display: inline-block;
+	width: 30%;
+	height: 55%;
+	border: 1.5px solid #2f2343;
+	background-color: #9079b9;
+	margin: 8px;
+}
+
+.trending_news_text{
+	text-align: center;
+	font-size: 18pt;
+	color: white; 
+	margin: 11%;
+}
+
+.external_site_text {
+	font-size: 22pt;
+}
+
+.spotlight_title_text {
+	font-size: 16pt;
+	margin-left: 10px;
+	color: black;
+	text-decoration: underline;
+}
+
+.spotlight_body_text {
+	margin-left: 18px;
+	font-size: 12pt;
+}
 
