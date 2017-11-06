@@ -16,7 +16,6 @@ a:visited { text-decoration: none; color:unset; }
 	margin-bottom: 25px;
 }
 
-
 #nav-wordmark {
 	text-decoration: none;
 	height: 85px;
@@ -49,8 +48,8 @@ a:visited { text-decoration: none; color:unset; }
 }
 
 .give-content-container {
-	height:100%;
 	padding: 1em;
+	height: 80%;
 }
 
 .left-panel {
@@ -58,10 +57,22 @@ a:visited { text-decoration: none; color:unset; }
 }
 .right-panel {
 	background: #f2f2f2;
+	overflow-y: scroll;
+}
+
+.middle-panel {
+	overflow-y:scroll;
 }
 
 #needs-list {
+	list-style: none;
+}
 
+#needs-list li {
+	color: black;
+	margin: 5px;
+	background: #f2f2f2;
+	height: 10em;
 }
 
 #welcome_block {
