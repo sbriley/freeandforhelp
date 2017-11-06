@@ -1,0 +1,74 @@
+body {
+	font-family: Avenir, sans-serif;
+}
+
+a:visited { text-decoration: none; color:unset; }
+
+
+#navbar *{
+	display: inline-block;
+}
+
+#navbar {
+	height: 100px;
+	background-color: #cccccc;
+}
+
+#nav-wordmark {
+	text-decoration: none;
+}
+
+#nav-logo {
+	height: 80%;
+}
+
+#nav-title {
+	font-size: 20px;
+
+}
+
+#nav-pages {
+	float: right;
+}
+
+#nav-pages a{
+	border: 2px solid black;
+}
+
+#welcome_block {
+	margin: 25px;
+	border: 3.5px solid black;
+}
+
+.content_block {
+	margin: 10px;
+	border: 5px solid black;
+	text-align: center; 
+
+}
+
+
+.content_block_element {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: 17px;
+	border: 3.5px solid black;
+	background-color: gray;
+}
+
+.content_block_name {
+	text-align: center;
+	font-size: 25pt;
+	color: white;
+	text-decoration: underline;
+}
+
+.content_block_description{
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+
+}
+
+
