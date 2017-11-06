@@ -37,5 +37,15 @@ a:visited { text-decoration: none; color:unset; }
 	border: 2px solid black;
 }
 
+.give-content-container {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid black;
+}
+
+#needs-list {
+	
+}
+
 
 
