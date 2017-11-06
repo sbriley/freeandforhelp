@@ -1,0 +1,51 @@
+
+
+body {
+	font-family: Avenir, sans-serif;
+}
+
+a:visited { text-decoration: none; color:unset; }
+
+
+#navbar *{
+	display: inline-block;
+}
+
+#navbar {
+	height: 100px;
+	background-color: #cccccc;
+}
+
+#nav-wordmark {
+	text-decoration: none;
+}
+
+#nav-logo {
+	height: 80%;
+}
+
+#nav-title {
+	font-size: 20px;
+
+}
+
+#nav-pages {
+	float: right;
+}
+
+#nav-pages a{
+	border: 2px solid black;
+}
+
+.give-content-container {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid black;
+}
+
+#needs-list {
+	
+}
+
+
+
