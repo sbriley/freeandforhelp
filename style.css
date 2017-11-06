@@ -5,6 +5,11 @@ body {
 
 a:visited { text-decoration: none; color:unset; }
 
+.main {
+	background: #f9f9f9;
+	height: 100%;
+}
+
 
 #navbar *{
 	display: inline-block;
