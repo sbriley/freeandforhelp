@@ -1,3 +1,4 @@
+
 body {
 	font-family: Avenir, sans-serif;
 }
@@ -19,7 +20,7 @@ a:visited { text-decoration: none; color:unset; }
 }
 
 #nav-logo {
-	height: 80%;
+	height: 80px;
 }
 
 #nav-title {
@@ -35,6 +36,16 @@ a:visited { text-decoration: none; color:unset; }
 	border: 2px solid black;
 }
 
+.give-content-container {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid black;
+}
+
+#needs-list {
+	
+}
+
 #welcome_block {
 	margin: 25px;
 	border: 3.5px solid black;
@@ -46,7 +57,6 @@ a:visited { text-decoration: none; color:unset; }
 	text-align: center; 
 
 }
-
 
 .content_block_element {
 	display: inline-block;
@@ -70,5 +80,6 @@ a:visited { text-decoration: none; color:unset; }
 	color: white;
 
 }
+
 
 
