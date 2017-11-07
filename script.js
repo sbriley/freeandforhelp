@@ -21,10 +21,32 @@ $(".home-link").click(function() {
     $("#home-content").show();
 })
 
+$("#submit-give").click(function() {
+    addHelp();
+})
+
 function addHelp() {
-    var firstName = "Susie";
-    var lastName = "Riley";
-    var distance = "2 miles";
-    var description = "I have 2 L of water to spare, and would like to share";
+    var firstName = $("#give-first-name").val();
+    var lastName = $("#give-last-name").val();
+    var category = "";
+    var description = $("#give-description").val();
+    if($("#give-cat-labor").is(':checked')) {
+        category = "Labor";
+    } else if($("#give-cat-food-water").is(':checked')) {
+        category = "Food/Water";
+    } else if($("#give-cat-transport").is(':checked')) {
+        category = "Transportation";
+    } else if($("#give-cat-other").is(':checked')) {
+        category = "Other";
+    } else if($("#give-cat-shelter").is(':checked')) {
+        category = "Shelter";
+    }
+
+    var newEntry = "";
+    newEntry += "<li> <h4> <b class=\"name\">" + firstName + "</b>";
+    newEntry += " offers <b class=\"category\">" + category + "</b></h4>";
+    newEntry += "<p class=\"description\">" + description + "</p></li>";
+
+    $("#give-list").prepend(newEntry);
 
 }

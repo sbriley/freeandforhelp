@@ -81,11 +81,11 @@ a:visited { text-decoration: none; color:unset; }
 	overflow-y:scroll;
 }
 
-#needs-list {
+.post-list {
 	list-style: none;
 }
 
-#needs-list li {
+.post-list li {
 	color: black;
 	margin: 5px;
 	background: #f2f2f2;
