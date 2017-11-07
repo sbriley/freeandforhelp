@@ -1,0 +1,272 @@
+<html>
+<head>
+   <title id="title">Free and for Help</title>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
+
+   <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+   <!-- Latest compiled and minified Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+   <!-- Latest compiled and minified Bootstrap JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="main">
+
+   <nav id="navbar" class="">
+      <a id="nav-wordmark" href="#">
+         <img src="images/question_mark.png" id="nav-logo" class="">
+         <span id="nav-title">Free And For Help</span>
+      </a>
+      <ul class="" id="nav-pages">
+         <a class="home-link">Home</a>
+         <a class="give-link">Give</a>
+         <a class="ask-link">Ask</a>
+         <a class="" href="learn.html">Learn</a>
+      </ul>
+   </nav>
+
+   <div class="container" id="home-content">
+       <div id = "welcome_block" class = "jumbotron jumbotron-fluid">
+       		<div class = "container">
+       			<h1 class = "display-3">Welcome to Free and for Help </h1>
+       			<p class = "lead"> The world's best way to help and be helped by your community. Learn more about our story below.</p>
+       		</div>
+       </div>
+
+       <div class = "content-block">
+       		<h1 style = "font-size:25pt; text-align: center; width: 90%;">What are you looking to do? Click below! </h1>
+
+    	<div class = "content_block_wrapper">
+       		<div class = "content_block_element">
+       			<a class="ask-link">
+       				<div class = "content_block_name"> ASK </div>
+       			</a>
+
+       			<div class = "content_block_description"> For help with a need, resource, or time from your community.  </div>
+       		</div>
+
+
+       		<div class = "content_block_element">
+       			<a class="give-link">
+       				<div class = "content_block_name"> GIVE </div>
+       			</a>
+       			<div class = "content_block_description"> Your time or your resources to a community member in need. </div>
+       		</div>
+
+       		<div class = "content_block_element">
+       			<a href = "learn.html">
+       				<div class = "content_block_name"> LEARN </div>
+       			</a>
+       			<div class = "content_block_description"> About events and needs in your community and how you can help. </div>
+       		</div>
+       	</div>
+
+       </div>
+
+       <div id = "about_us_block" class = "jumbotron jumbotron-fluid">
+       	<div class = "container">
+       		<h2 class = "display-3"> About Us </h4>
+       		<p class = "lead"> We are a web service designed to connect individuals in the aftermath of natural disasters and other emergencies. We hope to connect individual members of the community with each other to facilitate the exchange of essential goods and resources. </p>
+       	</div>
+       </div>
+   </div>
+
+
+   <div class="container" id="give-content">
+      <div class="row">
+         <div class="col-lg-3 give-content-container left-panel">
+            <input type="text" name="search" placeholder="Search..">
+         </div>
+         <div class="col-lg-6 give-content-container middle-panel">
+            <ul id="needs-list">
+               <li><div><b class="name">Johnny</b> needs <b class="category">Water</b>
+               </div></li>
+               <li><div>Sarah Needs Shelter</div></li>
+               <li><div>Nick Needs Transportation</div></li>
+               <li><div>Peggy Needs Transportation</div></li>
+               <li><div>Sasha Needs Transportation</div></li>
+               <li><div>Anne Needs Transportation</div></li>
+
+            </ul>
+         </div>
+         <div class="col-lg-3 give-content-container right-panel">
+            <h3>Have Something Else To Offer?</h3>
+            <button type="button" class="btn btn-info btn-lg"
+            data-toggle="modal" data-target="#givePost"> Give! </button>
+
+         </div>
+      </div>
+      <div id="givePost" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+              <div class="form" id="give-form">
+                  <h3> Fill Out This Form To Offer Additional Resources </h3>
+                  <form action="#">
+                      <div class="form-group">
+                          <label> First Name:</label>
+                          <input class="form-control" type="text" placeholder="First Name">
+                      </div>
+                      <div class="form-group">
+                          <label> Last Name:</label>
+                          <input class="form-control" type="text" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                          <label> Street Address:</label>
+                          <input class="form-control" type="text" placeholder="Street Address">
+                      </div>
+                      <div class="form-group">
+                          <label> City/Town:</label>
+                          <input class="form-control" type="text" placeholder="City/Town">
+                      </div>
+                      <div class="form-group">
+                          <label> State</label>
+                          <input class="form-control" type="text" placeholder="State">
+                      </div>
+                      <div class="form-group">
+                          <label> Zip Code:</label>
+                          <input class="form-control" type="number" placeholder="Zip Code">
+                      </div>
+                      <div class="form-group">
+                          <label> Country:</label>
+                          <input class="form-control" type="number" placeholder="Country">
+                      </div>
+                      <div class="form-group">
+                          <label> What do you want to give?</label>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Food/Water</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Shelter</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Transportation</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Labor</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Other</label>
+                      </div>
+                      <div class="form-group">
+                          <label for="comment">Description:</label>
+                          <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                  </div>
+
+
+                     <p>
+                     <button type="button"> Submit </button>
+                    </p>
+                  </form>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="ask-content">
+         <div class="row">
+            <div class="col-lg-3 give-content-container left-panel">
+               <input type="text" name="search" placeholder="Search..">
+            </div>
+            <div class="col-lg-6 give-content-container middle-panel">
+               <ul id="needs-list">
+                  <li><div><b class="name">Johnny</b> needs <b class="category">Water</b>
+                  </div></li>
+                  <li><div>Sarah Needs Shelter</div></li>
+                  <li><div>Nick Needs Transportation</div></li>
+                  <li><div>Peggy Needs Transportation</div></li>
+                  <li><div>Sasha Needs Transportation</div></li>
+                  <li><div>Anne Needs Transportation</div></li>
+
+               </ul>
+            </div>
+            <div class="col-lg-3 give-content-container right-panel">
+               <h3>Do you need something else?</h3>
+               <button type="button" class="btn btn-info btn-lg"
+               data-toggle="modal" data-target="#givePost"> Ask! </button>
+
+            </div>
+         </div>
+         <div id="givePost" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+                 <div class="form" id="give-form">
+                     <h3> Fill Out This Form To Offer Additional Resources </h3>
+                     <form action="#">
+                         <div class="form-group">
+                             <label> First Name:</label>
+                             <input class="form-control" type="text" placeholder="First Name">
+                         </div>
+                         <div class="form-group">
+                             <label> Last Name:</label>
+                             <input class="form-control" type="text" placeholder="Last Name">
+                         </div>
+                         <div class="form-group">
+                             <label> Street Address:</label>
+                             <input class="form-control" type="text" placeholder="Street Address">
+                         </div>
+                         <div class="form-group">
+                             <label> City/Town:</label>
+                             <input class="form-control" type="text" placeholder="City/Town">
+                         </div>
+                         <div class="form-group">
+                             <label> State</label>
+                             <input class="form-control" type="text" placeholder="State">
+                         </div>
+                         <div class="form-group">
+                             <label> Zip Code:</label>
+                             <input class="form-control" type="number" placeholder="Zip Code">
+                         </div>
+                         <div class="form-group">
+                             <label> Country:</label>
+                             <input class="form-control" type="number" placeholder="Country">
+                         </div>
+                         <div class="form-group">
+                             <label> What do you want to give?</label>
+                         <div class="checkbox">
+                             <label><input type="checkbox" value="">Food/Water</label>
+                         </div>
+                         <div class="checkbox">
+                             <label><input type="checkbox" value="">Shelter</label>
+                         </div>
+                         <div class="checkbox">
+                             <label><input type="checkbox" value="">Transportation</label>
+                         </div>
+                         <div class="checkbox">
+                             <label><input type="checkbox" value="">Labor</label>
+                         </div>
+                         <div class="checkbox">
+                             <label><input type="checkbox" value="">Other</label>
+                         </div>
+                         <div class="form-group">
+                             <label for="comment">Description:</label>
+                             <textarea class="form-control" rows="5" id="comment"></textarea>
+                         </div>
+                     </div>
+
+
+                        <p>
+                        <button type="button"> Submit </button>
+                       </p>
+                     </form>
+                 </div>
+             </div>
+         </div>
+
+
+
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="script.js"></script>
+
+</body>
+</html>
